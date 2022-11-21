@@ -48,16 +48,12 @@ void loop() {
   //------------------------Medicion de Temperatura-----------------------------
 
   temp1 = therm1.analog2temp(); //Leemos las temperaturas
-  //temp2 = therm2.analog2temp();
-  
-
+  //temp2 = therm2.analog2temp(); //En so de leer otra temperatura
   
   Serial.print(temp1);
   Serial.print(",");
   //Serial.print(temp2);
-  //Serial.print(",");
-  
-  
+  //Serial.print(",");   
   
   //---------------------------------------------------------------------------
 
